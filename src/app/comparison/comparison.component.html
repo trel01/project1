@@ -1,0 +1,10 @@
+<div class="comparison">
+    <div class="source" *ngFor="let source of sources">
+      <span class="name badge bg-primary text-wrap">{{ source.name }}</span>
+      <span class="temp">{{ source.temp }}°C</span>
+      <span class="humidity">{{ source.humidity }}%</span>
+      <span class="wind">{{ source.wind }} m/s</span>
+      <span class="condition">{{ source.condition }}</span>
+    </div>
+  </div>
+  

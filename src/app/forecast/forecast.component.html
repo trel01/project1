@@ -1,0 +1,11 @@
+<div class="forecast">
+  <div class="time-slot" *ngFor="let slot of timeSlots">
+    <div class="time">{{ slot.time }}</div>
+    <div class="icon">{{ slot.icon }}</div>
+    <div class="details">
+      <span class="temp">{{ slot.temp }}°C</span>
+      <span class="humidity">{{ slot.humidity }}%</span>
+      <span class="wind">{{ slot.wind }} m/s</span>
+    </div>
+  </div>
+</div>

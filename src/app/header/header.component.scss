@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date img {
+    margin-right: 10px;
+    height: 3rem;
+  }
+  
+  .weather {
+    display: flex;
+    align-items: center;
+  }
+  
+  .temp {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .temp img{
+    height: 4rem;;
+  }
+  
+  .description {
+    text-align: right;
+  }
+  
+.cc{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}

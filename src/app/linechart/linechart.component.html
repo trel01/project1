@@ -1,0 +1,10 @@
+<div *ngIf="weatherData">
+  <h1>Real-Time Weather Data</h1>
+  <p>Temperature: {{ weatherData.temp }} °C</p>  <!-- ตรวจสอบโครงสร้างข้อมูลจริง -->
+  <p>Humidity: {{ weatherData.humidity }} %</p>
+  <p>Wind Speed: {{ weatherData.wind_speed }} m/s</p>
+</div>
+
+<div *ngIf="!weatherData">
+  <p>Loading weather data...</p>
+</div>

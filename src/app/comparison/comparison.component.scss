@@ -1,0 +1,27 @@
+.comparison {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .source {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .source:last-child {
+    border-bottom: none;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 17px;
+  
+  }
+  
+  .condition {
+    font-size: 1.2em;
+  }
+  
